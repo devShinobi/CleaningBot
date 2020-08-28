@@ -16,7 +16,7 @@ RUN apt install -y \
   python3-colcon-common-extensions 
 
 RUN curl -sSL http://get.gazebosim.org | sh
-RUN apt remove gazebo11  libgazebo11-dev
+RUN apt remove -y gazebo11  libgazebo11-dev
 RUN apt install -y gazebo11 \ 
   ros-foxy-gazebo-ros-pkgs \
   ros-foxy-cartographer \
