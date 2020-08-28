@@ -11,8 +11,8 @@
 11. Note down the image id of the image with your tag  
 12. On the command prompt run `docker run -it -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=$DISPLAY <ImageId from previos step>`
 
-      -v /tmp/.X11-unix:/tmp/.X11-unix is for port forwarding so that we can run simulations to see what is happening with our bot
+      where `-v /tmp/.X11-unix:/tmp/.X11-unix ` is for port forwarding so that we can run simulations to see what is happening with our bot
 
-      -e DISPLAY=$DISPLAY will set the environment variable for the X11 port forwarding from docker to our machines(docker env has only terminal no GUI)
+      where `-e DISPLAY=$DISPLAY ` will set the environment variable for the X11 port forwarding from docker to our machines(docker env has only terminal no GUI)
 
 Your dev env is ready(you can also use this for linux as we are mostly using gitbash which is similar to terminal in linux)
