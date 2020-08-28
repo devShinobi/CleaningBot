@@ -10,3 +10,6 @@ The plan is to
 1.  ROS2- ROS2 has packages for Navigation, SLAM and can be installed on multiple platforms
 2.  Docker(I currently have a windows machine and i need a free and light weight OS to be available on the bot's hardware)
 3.  I intent use neural networks already trainedin object detection for object identification
+
+## For setup please folow the instructions
+follow instuctions from [dev-environment-setup.md](./dev-environment-setup.md)
