@@ -6,6 +6,12 @@
 6. Open a command prompt/ terminal and cd to the directory where Dockerfile is present.
 7. On the terminal run `docker build ./ -t DevEnvmnt` here DevEnvmnt is the tag
 8. To get IP Address of XMING start XMING by clicking on XLAUNCH. Go with the defaults and once it starts, go to taskpane and right click on the XMING icon. Open the log there you can find the IP address where XMING is pointing to. Note it down as we need it in the next step.
+
+![Start XLaunch](https://github.com/devShinobi/CleaningBot/blob/master/Images/Xlaunch%20img.png)
+![XMING Taskpane](https://github.com/devShinobi/CleaningBot/blob/master/Images/XLaunch.PNG)
+![XMING ViewLog](https://github.com/devShinobi/CleaningBot/blob/master/Images/Xluanch%20View%20Log.png)
+![XMING Log](https://github.com/devShinobi/CleaningBot/blob/master/Images/XMingLog.PNG)
+
 9. Setup the DISPLAY variable On the terminal `DISPLAY="<IP ADDRESS OF XMING>:0"` ( if you are using windows cmd then set DISPLAY="IP ADDRESS OF XMING:0") 
 10. On the terminal run `docker image ls` (this command shows the images that have are available on your local) 
 11. Note down the image id of the image with your tag  
